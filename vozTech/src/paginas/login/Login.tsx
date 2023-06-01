@@ -1,5 +1,5 @@
 import React, { useState, useEffect, ChangeEvent } from "react";
-import "./Login.css";
+import '../cadastroUsuario/CadastroUsuario.css';
 import { Grid, Box, Typography, TextField, Button } from "@material-ui/core";
 import { Link, useNavigate } from 'react-router-dom';
 import UserLogin from "../../models/UserLogin";
@@ -87,7 +87,7 @@ function Login () {
 
     return (
         <>
-            <Grid container direction="row" justifyContent="center" alignItems="center" className="imagem">
+            <Grid container direction="row" justifyContent="center" alignItems="center" className="imagem2">
                 <Grid alignItems="center" item xs={8}>
                     <Box paddingX={20} className="formulario" justifyContent="center">
                         <form onSubmit={onSubmit}>
